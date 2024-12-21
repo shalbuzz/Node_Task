@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node Task3_Postman/server3.js",
+    "dev": "node --watch Task5_Connection_DB/server5.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
   }
 }
